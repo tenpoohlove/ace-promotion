@@ -45,7 +45,7 @@ export default function Works() {
           {works.map((work, index) => (
             <div
               key={index}
-              className="grid md:grid-cols-[1fr_2fr] gap-8 md:gap-12 p-8 md:p-10 rounded-lg border border-gray-100 hover:border-orange-100 hover:shadow-md transition-all duration-300"
+              className="grid md:grid-cols-[1fr_2fr] gap-8 md:gap-12 p-8 md:p-10 rounded-lg bg-white shadow-[0_2px_16px_rgba(0,0,0,0.08)] border border-gray-200 border-l-4 border-l-orange-400 hover:shadow-[0_4px_24px_rgba(0,0,0,0.12)] transition-all duration-300"
             >
               {/* Left: Category & Result */}
               <div>
@@ -65,7 +65,7 @@ export default function Works() {
                 <p className="text-sm text-gray-500 leading-[1.9] mb-6">
                   {work.description}
                 </p>
-                <div className="flex items-center gap-3 pt-4 border-t border-gray-100">
+                <div className="flex items-center gap-3 pt-4 border-t border-gray-200/60">
                   <span className="text-[10px] tracking-wider text-gray-400 uppercase">
                     Result
                   </span>
