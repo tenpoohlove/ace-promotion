@@ -15,6 +15,7 @@ export default function Footer() {
           <nav className="flex gap-6">
             {[
               { label: 'サービス', href: '#services' },
+              { label: '実績', href: '#works' },
               { label: '私たちについて', href: '#about' },
               { label: '理念', href: '#philosophy' },
               { label: 'お問い合わせ', href: '#contact' },
