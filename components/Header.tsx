@@ -1,6 +1,7 @@
 'use client';
 
 import { useState } from 'react';
+import Image from 'next/image';
 
 export default function Header() {
   const [isOpen, setIsOpen] = useState(false);
@@ -18,6 +19,7 @@ export default function Header() {
       <div className="max-w-6xl mx-auto px-6 h-16 flex items-center justify-between">
         {/* Logo */}
         <a href="#" className="flex items-center gap-2">
+          <Image src="/logo.png" alt="ACE PROMOTION" width={40} height={40} className="object-contain" />
           <span className="text-navy-600 font-bold text-lg tracking-tight">
             ACE PROMOTION
           </span>
