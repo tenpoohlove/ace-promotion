@@ -57,7 +57,7 @@ const services: { number: string; title: string; subtitle: string; description: 
 export default function Services() {
   return (
     <section id="services" className="bg-[#faf9f7] py-20 md:py-28">
-      <div className="max-w-6xl mx-auto px-6">
+      <div className="max-w-[1200px] mx-auto px-4">
         {/* Section Header */}
         <div className="mb-16">
           <p className="text-xs tracking-[0.3em] text-orange-500 font-medium mb-3 uppercase">
@@ -70,11 +70,11 @@ export default function Services() {
         </div>
 
         {/* Service Cards */}
-        <div className="grid md:grid-cols-3 gap-8">
+        <div className="grid md:grid-cols-3 gap-4">
           {services.map((service) => (
             <div
               key={service.number}
-              className="bg-white p-8 rounded-lg border border-gray-100 hover:shadow-lg hover:border-orange-100 transition-all duration-300 group"
+              className="bg-white px-7 py-8 rounded-lg border border-gray-100 hover:shadow-lg hover:border-orange-100 transition-all duration-300 group"
             >
               {/* Number */}
               <span className="text-4xl font-bold text-orange-100 group-hover:text-orange-200 transition-colors">
