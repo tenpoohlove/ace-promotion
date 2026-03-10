@@ -12,14 +12,20 @@ export default function Philosophy() {
 
         <blockquote className="text-xl md:text-2xl text-white/90 font-light leading-relaxed mb-8">
           &ldquo;人と組織の可能性を引き出し、
-          <br className="hidden md:block" />
+          <br />
           持続的な成長の仕組みを創る&rdquo;
         </blockquote>
 
-        <p className="text-sm text-white/60 leading-relaxed max-w-2xl mx-auto">
-          私たちは、単なるノウハウの提供ではなく、クライアント自身が成長し続けられる
+        <p className="text-sm text-white/60 leading-[2] max-w-2xl mx-auto">
+          私たちは、単なるノウハウの提供ではなく、
+          <br className="hidden md:block" />
+          クライアント自身が成長し続けられる
+          <br className="hidden md:block" />
           「仕組み」と「人材」を育てることを使命としています。
-          ファネル構築も、研修も、セミナーも、すべては企業の自律的な成長のために。
+          <br className="hidden md:block" />
+          ファネル構築も、研修も、セミナーも、
+          <br className="hidden md:block" />
+          すべては企業の自律的な成長のために。
         </p>
 
         {/* Values */}

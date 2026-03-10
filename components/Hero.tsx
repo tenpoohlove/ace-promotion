@@ -16,9 +16,9 @@ export default function Hero() {
           </h1>
 
           {/* Sub Copy */}
-          <p className="text-base md:text-lg text-gray-500 leading-relaxed mb-10 max-w-lg font-light">
+          <p className="text-base md:text-lg text-gray-500 leading-relaxed mb-10 max-w-lg font-light md:whitespace-nowrap">
             ファネル構築・研修・セミナープロデュースで
-            <br className="hidden md:block" />
+            <br />
             企業の持続的な成長をサポートします。
           </p>
 

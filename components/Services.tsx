@@ -1,26 +1,55 @@
-const services = [
+import { ReactNode } from 'react';
+
+const services: { number: string; title: string; subtitle: string; description: ReactNode; points: string[] }[] = [
   {
     number: '01',
     title: 'ファネル構築',
     subtitle: 'Funnel Building',
-    description:
-      '見込み顧客の獲得から成約までの導線を設計・構築します。集客から教育、販売までの一連の流れを仕組み化し、安定した売上基盤を実現します。',
+    description: (
+      <>
+        見込み顧客の獲得から成約までの
+        <br className="hidden md:block" />
+        導線を設計・構築します。
+        <br className="hidden md:block" />
+        集客から教育、販売までの一連の流れを
+        <br className="hidden md:block" />
+        仕組み化し、安定した売上基盤を実現します。
+      </>
+    ),
     points: ['集客導線の設計', 'LP・ステップ配信の構築', '成約率の最適化'],
   },
   {
     number: '02',
     title: '法人向け研修パッケージ',
     subtitle: 'Corporate Training',
-    description:
-      '組織の課題に合わせたオーダーメイドの研修プログラムを提供します。実践的な内容で、受講後すぐに現場で活かせる学びを届けます。',
+    description: (
+      <>
+        組織の課題に合わせたオーダーメイドの
+        <br className="hidden md:block" />
+        研修プログラムを提供します。
+        <br className="hidden md:block" />
+        実践的な内容で、受講後すぐに
+        <br className="hidden md:block" />
+        現場で活かせる学びを届けます。
+      </>
+    ),
     points: ['課題別カスタマイズ研修', '実践型ワークショップ', 'フォローアップ体制'],
   },
   {
     number: '03',
     title: 'セミナープロデュース',
     subtitle: 'Seminar Production',
-    description:
-      'セミナーの企画から集客、当日運営、事後フォローまでをトータルでプロデュース。登壇者の強みを最大限に引き出す設計で、成果につながるセミナーを実現します。',
+    description: (
+      <>
+        セミナーの企画から集客、当日運営、
+        <br className="hidden md:block" />
+        事後フォローまでをトータルでプロデュース。
+        <br className="hidden md:block" />
+        登壇者の強みを最大限に引き出す設計で、
+        <br className="hidden md:block" />
+        成果につながるセミナーを実現します。
+      </>
+    ),
     points: ['企画・コンセプト設計', '集客戦略の立案', '運営・事後フォロー'],
   },
 ];

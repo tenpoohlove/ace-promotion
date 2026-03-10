@@ -13,18 +13,31 @@ export default function About() {
             </h2>
             <div className="w-12 h-0.5 bg-orange-500 mb-8" />
 
-            <div className="space-y-5 text-gray-500 text-sm leading-relaxed">
+            <div className="space-y-5 text-gray-500 text-sm leading-[2]">
               <p>
-                合同会社エースプロモーションは、企業の持続的な成長を支援するプロフェッショナルチームです。
+                合同会社エースプロモーションは、
+                <br className="hidden md:block" />
+                企業の持続的な成長を支援する
+                <br className="hidden md:block" />
+                プロフェッショナルチームです。
               </p>
               <p>
-                マーケティング戦略の構築から実行まで、一貫したサポートを提供。
-                特にファネル構築においては、クライアントの事業特性を深く理解した上で、
+                マーケティング戦略の構築から実行まで、
+                <br className="hidden md:block" />
+                一貫したサポートを提供。
+                <br className="hidden md:block" />
+                特にファネル構築においては、
+                <br className="hidden md:block" />
+                クライアントの事業特性を深く理解した上で、
+                <br className="hidden md:block" />
                 最適な顧客獲得の仕組みを設計します。
               </p>
               <p>
                 また、セミナー講師としての豊富な経験を活かし、
-                法人向け研修やセミナープロデュースでも高い評価をいただいています。
+                <br className="hidden md:block" />
+                法人向け研修やセミナープロデュースでも
+                <br className="hidden md:block" />
+                高い評価をいただいています。
               </p>
             </div>
 
