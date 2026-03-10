@@ -27,7 +27,7 @@ const works = [
 
 export default function Works() {
   return (
-    <section id="works" className="bg-white py-20 md:py-28">
+    <section id="works" className="bg-[#f5f3f0] py-20 md:py-28">
       <div className="max-w-[1200px] mx-auto px-6">
         {/* Section Header */}
         <div className="mb-16">
